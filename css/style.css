@@ -1,7 +1,7 @@
 
 * {
-	font-family: 'Montserrat', sans-serif;
-	
+
+	font-family: 'Nunito', sans-serif;
 }
 html{
 	scroll-behavior: smooth;
@@ -27,7 +27,7 @@ body {
 }
 .navbar-nav a {
 	color: #ffffff !important;
-	font-size: 15px;
+	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 500;
 }
@@ -40,7 +40,7 @@ body {
 
 .navbar-brand {
 	color: #000;
-	font-size: 25px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -100,9 +100,11 @@ body {
 scroll-snap-type:y mandatory;
 }
 
-#h2{
+h2{
 	color: rgb(0, 0, 0);
 	padding-bottom: 18px;
+	font-size: 40px;
+	font-weight: 500;
 	
 }
 
@@ -142,7 +144,8 @@ ul.benifitsist
 #aboutus{
 	padding-top: 70px;
 	padding-bottom: 165px;
-	background-color: #ffffff
+	background-color: #ffffff;
+	
 }
 
 #testo{
@@ -150,9 +153,11 @@ ul.benifitsist
 	padding-bottom: 5px;
 	background-color: #f7f7f7;
 	color: #000000;
+	
 }
 #testimonial {
 	padding: 50px 0;
+	
 }
 #testimonial .item {
 	display: block;
